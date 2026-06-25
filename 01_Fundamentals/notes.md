@@ -127,3 +127,98 @@ Reasons for using ML:
 * DL is a subset of ML based on neural networks.
 * Machine Learning helps discover patterns and make predictions.
 * ML powers many modern applications used every day.
+
+# Types of Machine Learning
+
+Machine Learning can be categorized into three main types based on the availability of labeled data and the learning process.
+
+## 1. Supervised Learning
+
+In supervised learning, the model is trained using labeled data, meaning both the input features and the correct outputs are provided.
+
+The objective is to learn a mapping between inputs and outputs so that predictions can be made on unseen data.
+
+### Examples
+
+* House Price Prediction
+* Spam Email Detection
+* Loan Approval Prediction
+* Disease Prediction
+
+### Types of Supervised Learning
+
+#### Regression
+
+Used when the output is a continuous numerical value.
+
+Examples:
+
+* Predicting salary
+* Predicting house prices
+* Predicting stock prices
+
+#### Classification
+
+Used when the output belongs to predefined categories.
+
+Examples:
+
+* Spam or Not Spam
+* Approved or Rejected
+* Positive or Negative Review
+
+---
+
+## 2. Unsupervised Learning
+
+In unsupervised learning, the dataset contains only input features and no labels.
+
+The algorithm identifies hidden patterns, structures, or relationships within the data.
+
+### Examples
+
+* Customer Segmentation
+* Market Basket Analysis
+* Anomaly Detection
+* Pattern Discovery
+
+### Common Algorithms
+
+* K-Means Clustering
+* Hierarchical Clustering
+* Principal Component Analysis (PCA)
+
+---
+
+## 3. Reinforcement Learning
+
+Reinforcement Learning is a learning paradigm where an agent interacts with an environment and learns through rewards and penalties.
+
+The objective is to maximize cumulative rewards over time.
+
+### Examples
+
+* Self-Driving Cars
+* Robotics
+* Game Playing AI
+* Resource Optimization
+
+---
+
+## Comparison
+
+| Feature          | Supervised     | Unsupervised          | Reinforcement         |
+| ---------------- | -------------- | --------------------- | --------------------- |
+| Labels Available | Yes            | No                    | No                    |
+| Learns From      | Input + Output | Input Only            | Rewards and Penalties |
+| Goal             | Prediction     | Pattern Discovery     | Decision Making       |
+| Example          | Spam Detection | Customer Segmentation | Self-Driving Cars     |
+
+## Key Takeaways
+
+* Supervised Learning uses labeled data.
+* Unsupervised Learning uses unlabeled data.
+* Reinforcement Learning learns through interaction and feedback.
+* Regression and Classification are types of Supervised Learning.
+* Clustering is a common Unsupervised Learning task.
+
